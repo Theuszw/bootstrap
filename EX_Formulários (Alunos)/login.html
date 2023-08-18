@@ -20,5 +20,45 @@
 
 <!-- Digitar programa (Aqui) -->
 
+  <div class="container col-11 col-md-9" id="form-container">
+    <!-- Cria um container responsivo com largura personalizada em diferentes breackpoints -->
+    <div class="row align-intems-center gx-5">
+      <!-- Cria uma linha com elementos alinhados verticalmente e espaçamento horizontal personalizado -->
+      <div class="col-md-6 order-md-2">
+        <!-- Cria uma coluna responsiva para dispositivos médios, altera a ordem de exibição em dispositivos médios -->
+        <h2>Faça o login para continuar</h2>
+
+        <form>
+          <!-- Cria um formulário -->
+          <div class="form-floating mb-3">
+            <!-- Cria um campo de formulário com estilo de flutuação e margem inferior -->
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+            <!-- Cria um campo de entrada de email -->
+            <label for="email" class="form-label">Digite seu email</label>
+            <!-- Cria um rótulo para o campo de email -->
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="|Digite a sua senha">
+            <label for="password" class="form-label">Digite a sua senha</label>
+          </div>
+          <input type="submit" class="tn btn-primary botao" value="Entrar">
+          <!-- Cria um botão de envio do formulário com estilo primário -->
+        </form>
+      </div>
+      <div class="col-md- order-md-1">
+        <div class="col-12">
+          <!-- Cria uma coluna ocupando 12 colunas em todos os breackpoints -->
+          <img src="img/login.svg" alt="Hello New Customer" class="img-fluid">
+          <!-- Cria uma imagem responsiva ocupando toda a largura disponível -->
+        </div>
+        <div class="col-12" id="link-container">
+          <!-- Cria uma coluna ocupando 12 colunas em todos os breackpoints com um ID "link-container" -->
+          <a href="register.html">Ainda não tenho cadastro</a>
+          <!-- Cria um link para a página "register.html" -->
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
